@@ -1,15 +1,20 @@
-<! 字體放大兩倍>
+<! V4  加入行事曆要粉紅色  字大一點；下載檔案要白色>
 <html>
 <head>
     <style>
         body {
             background-color: black;
             color: white;
-            font-size: 2em; /* 將字體放大兩倍 */
+            font-size: 2em; /* 預設字體放大兩倍 */
+        }
+        .highlight {
+            color: pink; /* 設定粉紅色 */
+            font-size: 2.1em; /* 字體比其他文字大 */
         }
         a {
             color: white;
             text-decoration: none;
+            font-size: 2em; /* 保持白色連結字體大小 */
         }
         a:hover {
             text-decoration: underline;
@@ -17,6 +22,7 @@
     </style>
 </head>
 <body>
+    <span class="highlight">加入行事曆 iPhone 或 Google</span></br>
     <a href="https://raw.githubusercontent.com/vicblaet/Qess/main/qrewt.ics">下載檔案</a>
 </body>
 </html>
